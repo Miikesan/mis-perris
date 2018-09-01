@@ -1,0 +1,53 @@
+@media all and (min-width: 200px){
+	/* xs */
+	header .navbar{
+		display: block;
+	}
+	header .navbar .logo-header{
+		height: 8rem;
+		width: 8rem;
+		margin: 0 auto .5rem auto;
+	}
+	header .navbar .navbar-toggler{
+		display: block;
+		width: 100%;
+		border: 1px solid #ffffff;
+		color: #ffffff;
+	}
+	header .navbar .navbar-nav .nav-item .nav-link{
+		color: #ffffff;
+	}
+}
+@media all and (min-width: 576px){
+	/* sm */
+	header{
+		position: relative;
+	}
+	header .navbar .logo-header{
+		float: left;
+		margin: 0;
+	}
+	header .navbar .navbar-toggler{
+		position: absolute;
+		right: 1rem;
+		top: 2rem;
+		width: auto;
+	}
+}
+@media all and (min-width: 768px){
+	/* md */
+	header .navbar .navbar-toggler{
+		display: none;
+	}
+	header .navbar .navbar-nav{
+		position: absolute;
+		bottom: 1rem;
+		right: 1rem;
+	}
+}
+@media all and (min-width: 992px){
+	/* lg */
+}
+@media all and (min-width: 1200px){
+	/* xl */
+}
