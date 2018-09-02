@@ -3,11 +3,17 @@
 }
 .colorheaderletras{
     background-color: #6dccaa;
-    padding-top: 8px;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
-@media (min-with: 700px){
-    .colorheaderletras{
-        padding-top: 0px;
-    }
-
+.centrarletras{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+.grosor{
+    height: 80px;
 }
