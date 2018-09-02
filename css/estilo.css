@@ -8,12 +8,40 @@
   flex-direction: column;
   text-align: center;
 }
-.centrarletras{
+/* .centrarletras{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: right;
-}
+} */
 .grosor{
     height: 80px;
+}
+#contenido{
+    /* padding: 20px; */
+}
+#crow{
+    text-align: left;
+    justify-content: flex-end;
+    float: right;
+}
+#rescate{
+    float: left;
+    text-align: right;
+}
+hr{
+    display: inline-block;
+    width: 50px;
+    height: 2px;
+    background: #333;
+}
+#imagenescachorros{
+    display: flex;
+    align-content: space-around;
+}
+
+@media (max-width: 600px){
+#imagenrescate{
+    justify-content: flex-end; 
+}
 }
