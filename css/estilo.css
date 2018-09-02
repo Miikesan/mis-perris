@@ -8,15 +8,6 @@
   flex-direction: column;
   text-align: center;
 }
-/* .centrarletras{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: right;
-} */
-img {
-    
-}
 
 .grosor{
     height: 80px;
@@ -30,12 +21,6 @@ img {
     float: left;
     text-align: right;
 }
-/* #contenido{
-    flex-wrap: wrap;
-}
-#contacto{
-    flex-wrap: wrap;
-} */
 hr{
     display: inline-block;
     width: 50px;
