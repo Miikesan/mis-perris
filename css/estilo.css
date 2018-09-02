@@ -17,9 +17,6 @@
 .grosor{
     height: 80px;
 }
-#contenido{
-    /* padding: 20px; */
-}
 #crow{
     text-align: left;
     justify-content: flex-end;
