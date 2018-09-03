@@ -1,55 +1,124 @@
-.colorheader {
+.colorheader{
     background-color: #85d4b7;
 }
-
-.colorheaderletras {
+.colorheaderletras{
     background-color: #6dccaa;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.grosor {
+.grosor{
     height: 80px;
 }
-
-#crow {
+#crow{
     text-align: left;
     justify-content: flex-end;
     float: right;
 }
-
-#rescate {
+#rescate{
     float: left;
     text-align: right;
 }
-
-hr {
+hr{
     display: inline-block;
     width: 50px;
     height: 2px;
     background: #333;
 }
 
-#imagencachorros {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
+
+.img-responsive {
+    width:100%;
+    height:auto;
 }
 
-@media (max-width: 600px) {
-    #imagenrescate {
-        justify-content: flex-end;
-    }
+footer {
+	text-align: center;
 }
 
-section.fotos-cachorros {
-    background-color: #6dccaa;
+@media (max-width: 600px){
+#imagenrescate{
+    justify-content: flex-end; 
+}
 }
 
-section.fotos-cachorros img{
-    width: 100%;
-    height: 230px;
+@media all and (min-width: 200px){
+	/* xs */
+	header .navbar{
+		display: block;
+	}
+	header .navbar .logo-header{
+		height: 8rem;
+		width: 8rem;
+		margin: 0 auto .5rem auto;
+	}
+	header .navbar .navbar-toggler{
+		display: block;
+		width: 100%;
+		border: 1px solid #ffffff;
+		color: #ffffff;
+	}
+	header .navbar .navbar-nav .nav-item .nav-link{
+		color: #ffffff;
+	}
+}
+@media all and (min-width: 576px){
+	/* sm */
+	header{
+		position: relative;
+	}
+	header .navbar .logo-header{
+		float: left;
+		margin: 0;
+	}
+	header .navbar .navbar-toggler{
+		position: absolute;
+		right: 1rem;
+		top: 2rem;
+		width: auto;
+	}
+}
+@media all and (min-width: 768px){
+	/* md */
+	header .navbar .navbar-toggler{
+		display: none;
+	}
+	header .navbar .navbar-nav{
+		position: absolute;
+		bottom: 1rem;
+		right: 1rem;
+	}
+}
+@media all and (min-width: 992px){
+	/* lg */
+}
+@media all and (min-width: 1200px){
+	/* xl */
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 15px;
+}
+
+.social{
+    list-style: none;
+}
+
+.social li{
+    display: inline-block;
+}
+
+.social li a{
+    display:block;
+    background:  #fff;
+    width: 35px;
+    height: 35px;
+    margin:  10px;
+    padding-top: 5px;
+	border-radius: 25px;
+	color: #333
 }
