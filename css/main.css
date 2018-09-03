@@ -52,29 +52,20 @@
 	/* xl */
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 30px 15px;
-}
-
-.banner-info .social {
+.social{
     list-style: none;
-    display: flex;
 }
 
-.banner-info .social li {
-    margin: 10px;
+.social li{
+    display: inline-block;
 }
 
-.banner-info .social li a {
-    background: #fff;
-    padding: 20px;
-    border-radius: 50%;
-    color: #333;
-}
-
-.banner-info .social li a i {
-    width: 20px;
-    height: 20px;
+.social li a{
+    display:block;
+    background:  #fff;
+    width: 35px;
+    height: 35px;
+    margin:  10px;
+    padding-top: 5px;
+    border-radius: 25px;
 }
