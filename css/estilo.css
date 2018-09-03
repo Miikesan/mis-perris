@@ -1,41 +1,55 @@
-.colorheader{
+.colorheader {
     background-color: #85d4b7;
 }
-.colorheaderletras{
+
+.colorheaderletras {
     background-color: #6dccaa;
     display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
-.grosor{
+.grosor {
     height: 80px;
 }
-#crow{
+
+#crow {
     text-align: left;
     justify-content: flex-end;
     float: right;
 }
-#rescate{
+
+#rescate {
     float: left;
     text-align: right;
 }
-hr{
+
+hr {
     display: inline-block;
     width: 50px;
     height: 2px;
     background: #333;
 }
 
-#imagencachorros{
-    width:100%;
-    height:auto;
+#imagencachorros {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
 }
-@media (max-width: 600px){
-#imagenrescate{
-    justify-content: flex-end; 
+
+@media (max-width: 600px) {
+    #imagenrescate {
+        justify-content: flex-end;
+    }
 }
+
+section.fotos-cachorros {
+    background-color: #6dccaa;
+}
+
+section.fotos-cachorros img{
+    width: 100%;
+    height: 230px;
 }

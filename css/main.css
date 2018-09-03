@@ -51,3 +51,30 @@
 @media all and (min-width: 1200px){
 	/* xl */
 }
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 15px;
+}
+
+.banner-info .social {
+    list-style: none;
+    display: flex;
+}
+
+.banner-info .social li {
+    margin: 10px;
+}
+
+.banner-info .social li a {
+    background: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    color: #333;
+}
+
+.banner-info .social li a i {
+    width: 20px;
+    height: 20px;
+}
