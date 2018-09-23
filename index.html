@@ -1,188 +1,177 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- soporte de internet explorer -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Fundación Mis Perris">
+    <meta name="author" content="Texia Gonzalez - Sebastian Becerra">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    <title>Mis Perris</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <!-- CDN FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- CDN Fancybox core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.css" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet"> </head>
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-                crossorigin="anonymous">
-        <link rel="stylesheet" href="css/estilo.css" type="text/css">
-
-        <!-- Adding Google Font Open Sans -->
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-        
-        <!-- Adding Font Awesome Icons -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        
-        <!-- Adding Flexbox Grid library -->
-        <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
-        
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-                crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-                crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-                crossorigin="anonymous"></script>
-
-        <title>Mis perris</title>
-</head>
-
-<body>
-                <header class="row text-center text-white">
-
-                        <div class="col-lg-4 col-xs-12 colorheader">
-                                <img src="img/logo.png" class="img-fluid">
-                        </div>
-
-
-                        <div class="col-xs-12 col-lg-2 colorheaderletras">
-                                <h3>Inicio</h3> 
-                        </div>
-
-                        <div class="col-xs-12 col-lg-2 colorheaderletras ">
-                                <h3>Quienes Somos</h3>
-                        </div>
-
-                        <div class="col-xs-12 col-lg-2 colorheaderletras ">
-                                <h3>Servicio</h3>
-                        </div>
-
-                        <div class="col-xs-12 col-lg-2 colorheaderletras ">
-                                <h3>Contactanos</h3>
-                        </div>
-
-                        <div  id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="background-color: #85d4b7;">
-                                <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                <img class="d-block w-100" src="img/perro.png" class="img-fluid" alt="First slide">
-                                </div>
-                               
-                                <div class="carousel-item">
-                                <img class="d-block w-100" src="img/perro.png" class="img-fluid" alt="Second slide">
-                                </div>
-                                 <!--<div class="carousel-item">
-                                   <img class="d-block w-100" src="" class="img-fluid" alt="Third slide">
-                                </div>
-                                </div>
-                                -->
-                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                                </a>
-                                
-                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                                </a>
-                        </div>
+<body class="home">
+    <!-- Header
+        ================================================== -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-theme">
+            <a class="navbar-brand" href="index.html"><img alt="" src="images/logo.png" class="w-100 logo" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-mobile" aria-controls="menu-mobile" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="menu-mobile">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"> <a class="nav-link" href="#">Inicio</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#about-us">Quienes Somos</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Servicios</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="contacto.html">Contáctanos</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Slider
+        ================================================== -->
+        <section class="banner bg-theme">
+            <h2 class="sr-only">Nuestros Perris</h2>
+            <div id="slider-home" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#slider-home" data-slide-to="0" class="active"></li>
+                    <li data-target="#slider-home" data-slide-to="1"></li>
+                    <li data-target="#slider-home" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"> <img class="d-block w-100" src="images/adoptados/Apolo.jpg" alt="Primer slide"> </div>
+                    <div class="carousel-item"> <img class="d-block w-100" src="images/adoptados/Duque.jpg" alt="Segundo slide"> </div>
+                    <div class="carousel-item"> <img class="d-block w-100" src="images/adoptados/Tom.jpg" alt="Tercer slide"> </div>
                 </div>
-</header>
-        
-
-                <div id="contacto" class="row text-white grosor" >
-                <div class="col-lg-4 colorheaderletras">
-                        <h4 class="phone" href="tel:+56995566022">+56 9 95566022</h4>
-                        
-                </div>
-                <div class="col-lg-4 colorheaderletras">
-                        <h4>Rescate y adopción de perros callejeros</h4>
-                        
-                </div>
-                <div class="col-lg-4 colorheaderletras">
-                
-                        <ul class="social">
-                                <li>
-                                <a href="#" alt="Facebook">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#" alt="Google +">
-                                        <i class="fa fa-google-plus" aria-hidden="true"></i>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#" alt="Instagram">
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </a>
-                                </li>
-                                <li>
-                                <a href="#" alt="Mail">
-                                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                                </a>
-                                </li>
+                <a class="carousel-control-prev" href="#slider-home" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Anterior</span> </a>
+                <a class="carousel-control-next" href="#slider-home" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Siguiente</span> </a>
+            </div>
+        </section>
+        <!-- Informacion
+        ================================================== -->
+        <section class="info bg-theme">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 text-center">
+                        <h5 class="mt-2">+56 9 95566022</h5> </div>
+                    <div class="col-lg-6 text-center">
+                        <h1>Rescate y adopción de perros callejeros</h1> </div>
+                    <div class="col-lg-3">
+                        <ul class="list-inline text-center social">
+                            <li class="list-inline-item">
+                                <a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"> <i class="fa fa-google-plus" aria-hidden="true"></i> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i> </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i> </a>
+                            </li>
                         </ul>
-                </div>
- 		</div>
-
-	<div style="clear: both; padding: 5px;">&nbsp;</div>
-        <div class="bg-ligth">
-                
-                <div class="container">
-                    <div class="row">
-                        <div id="Rescate" class="col-12 col-md-6 py-5">
-                            <h2>Rescate</h2>
-                            <p class="Subtitulo-Rescate">Etapa Uno</p>
-                            <hr>
-                            <p>Rescatamos perros en situación de peligro y/o abandono. Los rehabilitamos y los preparamos para buscarles un hogar.</p>
-                            <img src="img/rescate.jpg" class="img-fluid">
-                        </div>
-
-                        <div id="CROWDFUNDING" class="col-12 col-md-6 py-5">
-                            <h2>Crowfunding</h2>
-                            <p class="Subtitulo-Financiamiento">Financiamiento</p>
-                            <hr>
-                            <p>Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos para obtener financiamiento para seguir ayudando.</p>
-                            <img src="img/crowfunding.jpg" class="img-fluid">
-                            <br><br>
-                            <button type="button" name="button">CAMPAÑAS</button>
-                        </div>
                     </div>
                 </div>
-        </div>
-      
-        <div class="colorheader" id="imagencachorros">
-  
-                <div class="container">
+            </div>
+        </section>
+        <!-- Acerca de
+        ================================================== -->
+        <section id="about-us" class="about-us">
+            <div class="container">
                 <div class="row">
-                        <div class="col-md-4  py-5" id="foto_1">
-                            <img src="img/perro1.jpg" class="img-responsive">
-                        </div>
-                        <div class="col-md-4  py-5" id="foto_2">
-                            <img src="img/perro2.jpg" class="img-responsive">
-                        </div>
-                        <div class="col-md-4  py-5" id="foto_3">
-                            <img src="img/perro3.jpg" class="img-responsive">
-                        </div>
-                        <div class="col-md-4  py-5" id="foto_4">
-                            <img src="img/perro4.jpg" class="img-responsive">
-                        </div>
-                        <div class="col-md-4  py-5" id="foto_5">
-                            <img src="img/perro5.jpg" class="img-responsive">
-                        </div>
-                        <div class=" col-md-4  py-5" id="foto_6">
-                            <img src="img/perro6.jpg" class="img-responsive">
-                        </div>
-                        <div class="col-md-4  py-5" id="foto_7">
-                            <img src="img/perro7.jpg" class="img-responsive">
-                        </div>
-                      
-                </div> </div>
-
- 	</div>
- 
-        <footer>
-                <p>Desarrollo Web y mobile - By Davidad Saldaña & Miguel Sanhueza</p>
-        </footer>
-
-
-
+                    <div class="col-lg-6 text-right">
+                        <div class="title">
+                            <h3 class="text-uppercase">Rescate</h3> <span class="text-uppercase text-secondary">Etapa uno</span> </div>
+                        <div class="image mt-4"> <img class="w-100 rounded" src="images/rescate.jpg" alt="Etapa Uno - Rescate"> </div>
+                        <p class="mt-4">Rescatamos perros en situación de peligro y/o abandono. Los rehabilitamos y los preparamos para buscarles un hogar.</p>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                    <div class="col-lg-6">
+                        <div class="image"> <img class="w-100 rounded" src="images/crowfunding.jpg" alt="Etapa Dos - Financiamiento"> </div>
+                        <div class="title mt-4">
+                            <h3 class="text-uppercase">Crowdfunding</h3> <span class="text-uppercase text-secondary">Financiamiento</span> </div>
+                        <p class="mt-4">Sigue nuestras redes sociales para informarte acerca de las diversas campañas y actividades que realizamos para obtener financiamiento para seguir ayudando. </p>
+                    </div>
+                    <!-- /.col-lg-6 -->
+                </div>
+                <!-- /.row -->
+            </div>
+        </section>
+        <!-- Galeria
+        ================================================== -->
+        <section id="gallery" class="gallery bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-center text-uppercase text-white mt-5">Conoce a nuestros perris</h3> </div>
+                    <div class="col-12 mt-5">
+                        <h4 class="text-white">Rescatados</h4> </div>
+                    <div class="col-12 col-sm-3">
+                        <a data-fancybox="gallery-rescatados" href="images/rescatados/Bigotes.jpg" data-caption="Bigotes - Perris mediano, con mucha energía, disfruta de la compañía de otros perris."><img alt="Bigotes" class="w-100" src="images/rescatados/Bigotes_tn.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Bigotes</h4> </div>
+                    <div class="col-12 col-sm-3">
+                        <a data-fancybox="gallery-rescatados" href="images/rescatados/Chocolate.jpg" data-caption="Chocolate -Adulto mayor no le gustan los niños, le encantan los paseos matutinos."><img alt="Chocolate" class="w-100" src="images/rescatados/Chocolate_tn.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Chocolate</h4> </div>
+                    <div class="col-12 col-sm-3">
+                        <a data-fancybox="gallery-rescatados" href="images/rescatados/Luna.jpg" data-caption="Luna - Pequeña y dulce busca BFF humano."><img alt="Luna" class="w-100" src="images/rescatados/Luna_tn.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Luna</h4> </div>
+                    <div class="col-12 col-sm-3">
+                        <a data-fancybox="gallery-rescatados" href="images/rescatados/Maya.jpg" data-caption="Maya - Le encantan las actividades al aire libre, tu mejor compañera de ejercicio."><img alt="Maya" class="w-100" src="images/rescatados/Maya_tn.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Maya</h4> </div>
+                    <div class="col-12 col-sm-3">
+                        <a data-fancybox="gallery-rescatados" href="images/rescatados/Oso.jpg" data-caption="Oso - Adulto responsable, le encanta mostrar afecto."><img alt="Oso" class="w-100" src="images/rescatados/Oso_tn.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Oso</h4> </div>
+                    <div class="col-12 col-sm-3">
+                        <a data-fancybox="gallery-rescatados" href="images/rescatados/Pexel.jpg" data-caption="Pexel - Pequeño, inquieto y no le gusta estar solo."><img alt="Pexel" class="w-100" src="images/rescatados/Pexel_tn.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Pexel</h4> </div>
+                    <div class="col-12 col-sm-3">
+                        <a data-fancybox="gallery-rescatados" href="images/rescatados/Wifi.jpg" data-caption="Wifi - Tímido, mediano y le gusta jugar a las escondidas."><img alt="Wifi" class="w-100" src="images/rescatados/Wifi_tn.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Wifi</h4> </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <h4 class="text-white">Adoptados</h4> </div>
+                    <div class="col-12 col-sm-4">
+                        <a data-fancybox="gallery-adoptados" href="images/adoptados/Apolo.jpg"><img alt="Apolo" class="w-100" src="images/adoptados/Apolo.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Apolo</h4> </div>
+                    <div class="col-12 col-sm-4">
+                        <a data-fancybox="gallery-adoptados" href="images/adoptados/Duque.jpg"><img alt="Duque" class="w-100" src="images/adoptados/Duque.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Duque</h4> </div>
+                    <div class="col-12 col-sm-4">
+                        <a data-fancybox="gallery-adoptados" href="images/adoptados/Tom.jpg"><img alt="Tom" class="w-100" src="images/adoptados/Tom.jpg"></a>
+                        <h4 class="text-white font-weight-normal mt-3">Tom</h4> </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer
+        ================================================== -->
+    <footer class="bg-light">
+        <div class="container">
+            <p class="float-right"><a href="#">Ir arriba</a></p>
+            <p>&copy; <span class="js-year">----</span> - Fundación Mis Perris By Miguel Sanhueza & David Saldaña </p>
+        </div>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.4.1/jquery.fancybox.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
